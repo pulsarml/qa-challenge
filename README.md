@@ -3,10 +3,10 @@
 ## Tasks
 
 1. Run the tests in the 2 modes
-1. Figure out why the test is failing
-1. Implement login flow
+1. Figure out why one of the tests is failing
+1. Implement login flow (ask for a user/password if not provided)
 1. Move the login flow to a Cypress command so that it can be reused in other tests
-1. Using the login flow command, test whether the following 3 cards load correctly:
+1. In the second test, use the login flow command to authenticate and then test whether the following 3 cards load correctly:
    - Disponibilidad total
    - Anotación de paradas
    - Causas generales de paradas
@@ -18,9 +18,9 @@
 qa-challenge/
 ├── cypress/
 │   ├── e2e/
-│   │   └── url-test.cy.js    # Main test file
+│   │   └── main-test.cy.js    # Main test file
 │   ├── support/
-│   │   └── e2e.js            # Support file for global configurations
+│   │   └── e2e.js             # Support file for global configurations
 │   └── fixtures/              # Test data files (if needed)
 ├── cypress.config.js          # Cypress configuration
 ├── package.json               # Project dependencies and scripts
@@ -29,7 +29,7 @@ qa-challenge/
 
 ## Prerequisites
 
-- Node.js (version 18 or higher)
+- Node.js (version 20 or higher)
 - npm
 
 ## Installation
