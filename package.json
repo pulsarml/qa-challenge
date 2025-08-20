@@ -1,0 +1,23 @@
+{
+  "name": "qa-challenge",
+  "version": "1.0.0",
+  "description": "A simple Cypress test project that opens a given URL",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run",
+    "test:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "qa",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.0.0"
+  }
+}
