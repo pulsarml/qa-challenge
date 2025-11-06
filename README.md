@@ -5,11 +5,8 @@
 1. Run the tests in the 2 modes
 1. Figure out why one of the tests is failing
 1. Implement login flow (ask for a user/password if not provided)
+1. In the second test, test whether the machine list in the realtime page loads correctly
 1. Move the login flow to a Cypress command so that it can be reused in other tests
-1. In the second test, use the login flow command to authenticate and then test whether the following 3 cards load correctly:
-   - Disponibilidad total
-   - Anotación de paradas
-   - Causas generales de paradas
 1. (bonus) Do not hard-code user password
 
 ## Project Structure
